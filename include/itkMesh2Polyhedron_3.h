@@ -97,5 +97,4 @@ private:
     ITKMeshPointer m_Mesh;
   };
 };
-#endif  __itkMesh2CGALPolyhedron_3_h
-
+#endif  // __itkMesh2CGALPolyhedron_3_h
