@@ -1,5 +1,6 @@
 set( _tests
   itkMesh2CGALMesh
+  itkImage2CGALImage
 )
 
 foreach( t ${_tests} )
