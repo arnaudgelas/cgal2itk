@@ -8,7 +8,7 @@ class Convert
 {
 public:
   typedef TITKMesh                                            ITKMeshType;
-  typedef typename ITKMeshType::Pointer                  ITKMeshPointer;
+  typedef typename ITKMeshType::Pointer                       ITKMeshPointer;
   typedef typename ITKMeshType::ConstPointer                  ITKMeshConstPointer;
 
   typedef typename ITKMeshType::PointType                     ITKPointType;
@@ -33,7 +33,7 @@ public:
 
   static void fromCGALToITK( const CGALMeshType& input, ITKMeshType* oMesh )
   {
-    
+     
   }
 
 protected:
